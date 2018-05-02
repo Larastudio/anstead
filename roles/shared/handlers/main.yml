@@ -4,7 +4,7 @@
 
 - name: reload php-fpm
   service:
-    name: php7.1-fpm
+    name: php7.2-fpm
     state: reloaded
 
 - import_tasks: "{{ playbook_dir }}/roles/shared/tasks/reload_nginx.yml"

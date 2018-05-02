@@ -12,7 +12,7 @@
   with_dict: "{{ laravel_apps }}"
 
 - name: Reload php-fpm
-  shell: sudo service php7.1-fpm reload
+  shell: sudo service php7.2-fpm reload
   args:
     chdir: "{{ deploy_helper.new_release_path }}"
     warn: false

@@ -1,5 +1,5 @@
 ---
-- name: "Laravel: Install LEMP Stack with PHP 7.1"
+- name: "Laravel: Install LEMP Stack with PHP 7.2"
   hosts: web:&{{ env }}
   become: yes
   roles:

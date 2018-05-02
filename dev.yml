@@ -1,5 +1,5 @@
 ---
-- name: "Laravel Server: Install LEMP Stack with PHP 7.1, MariaDB and Redis"
+- name: "Laravel Server: Install LEMP Stack with PHP 7.2, MariaDB and Redis"
   hosts: development
   become: yes
   remote_user: vagrant

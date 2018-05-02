@@ -47,7 +47,7 @@ This playbook configures the following and more:
 
 * Ubuntu 16.04 Xenial LTS
 * Nginx
-* PHP 7.1
+* PHP 7.2
 * MariaDB
 * Redis
 * Supervisor
